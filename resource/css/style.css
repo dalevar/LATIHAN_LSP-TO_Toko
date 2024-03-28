@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+:root {
+  --primary-color: #a00e19;
+  --secondary-color: #152c5b;
+  --text-color: #b0b0b0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  line-height: 1.80857;
+  font-weight: normal;
+}
+
+.navbar a {
+  color: var(--secondary-color);
+}
+
+.navbar a:hover {
+  color: #550f11;
+}
+
+.navbar a.active {
+  color: #550f11 !important;
+}
+
+.banner {
+  padding-top: 2em;
+  padding-bottom: 3em;
+  /* background-color: #ececec; */
+  background-color: #e5d1c8;
+}
+
+.banner h1 {
+  color: var(--secondary-color);
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.banner p {
+  color: #ffffef;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.content h3 {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.btn-primary-custom-sm {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-primary-custom-sm:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.content .list_room img {
+  width: 100%;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.content .list_room h5 {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content .list_room p {
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.story {
+  padding-top: 7em;
+}
+
+.story h4 {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.story h3 {
+  color: var(--secondary-color);
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+footer {
+  margin-top: 100px;
+  padding-top: 30px;
+  border-top: 1px solid #e5e5e5;
+}
+
+footer p {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 200;
+}
+
+footer h5 {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.booking {
+  margin-top: 100px;
+}
+
+.booking h3 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.booking img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.booking .information h5 {
+  color: #550f11;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.booking .information h5 span {
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.booking .information p {
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.booking .information ul li {
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.booking form label {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking form input {
+  border-radius: 5px;
+  background-color: #f5f6f8;
+  border: 0;
+}
+
+.booking .info-price h5 {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+}
